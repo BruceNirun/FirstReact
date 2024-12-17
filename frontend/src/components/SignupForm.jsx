@@ -111,9 +111,19 @@ const SignupForm = () => {
                 background: 'linear-gradient(180deg, #30ABD3 0%, #13CAA9 100%)',
               }}
             >
-              เข้าสู่ระบบ
+              สมัครสมาชิก
             </button>
           </form>
+          <p className='mt-8 text-sm text-gray-600'>
+            มีบัญชีแล้ว?{" "}
+            <a
+              href="/login" // Route to your signup page
+              className="text-blue-500 underline"
+              style={{ cursor: 'pointer' }}
+            >
+              กลับหน้าแรก
+            </a>
+          </p>
         </div>
       </div>
     </div>
